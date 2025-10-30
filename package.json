@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:cart": "npx testcafe chrome tests/add-to-cart.test.js",
+    "test:product-compare": "npx testcafe chrome tests/products-compare.test.js",
+    "test:change-password": "npx testcafe chrome tests/change-password.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
